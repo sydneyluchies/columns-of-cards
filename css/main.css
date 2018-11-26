@@ -1,0 +1,96 @@
+html {
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+h1 {
+  text-align: center;
+  margin: .8em;
+}
+
+h2 {
+  text-align: left;
+  font-size: 1rem;
+}
+
+.btn {
+  display: flex;
+  flex-grow: 0;
+  font-size: .5rem;
+  padding: 1.5rem;
+  padding: 0;
+}
+
+.btn li {
+  display: inline-block;
+  flex-direction: column-reverse;
+  text-align: center;
+  margin: 0;
+  background-color: #e2e2e2;
+  border-left-style: solid;
+  border-width: thin;
+  border-color: #999;
+  padding: .75rem;
+  line-height: 1rem;
+  width: 25%;
+}
+
+img {
+  display: inline-block;
+  width: 100px;
+}
+
+.btn-small {
+  background-color: #333;
+  color: #fff;
+  display: block;
+  padding: .75rem;
+  border-radius: 10px;
+  margin-top: 3rem;
+}
+
+.btn-small:hover {
+  background-color: #000;
+}
+
+.btn:hover {
+  border: #fff;
+}
+
+.btn p {
+  font-weight: normal;
+  text-align: left;
+  font-size: .875rem;
+}
+
+.btn p:nth-child(odd) {
+  font-style: italic;
+}
+
+.btn p:nth-child(3) {
+  font-style: normal;
+}
+
+ul {
+  margin: 0;
+}
+
+body {
+  margin: 0;
+}
+
+.btn li:nth-child(2) {
+  background-color: #ccc;
+}
+
+.btn li:nth-child(4) {
+  background-color: #999;
+}
+
+.btn li:nth-child(3) {
+  background-color: #aaa;
+}
