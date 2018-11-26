@@ -12,6 +12,7 @@ html {
 h2 {
   text-align: center;
   margin: .8em;
+  font-size: 2rem;
 }
 
 h3 {
@@ -19,7 +20,7 @@ h3 {
   font-size: 1rem;
 }
 
-.btn {
+.cards {
   display: flex;
   flex-grow: 0;
   font-size: .5rem;
@@ -27,7 +28,7 @@ h3 {
   padding: 0;
 }
 
-.btn li {
+.cards li {
   display: inline-block;
   flex-direction: column-reverse;
   text-align: center;
@@ -46,12 +47,12 @@ img {
   width: 100%;
 }
 
-.btn img {
+.cards img {
   width: 100px;
   margin: 0 auto 1.5rem;
 }
 
-.btn-small {
+.btn {
   background-color: #333;
   color: #fff;
   display: block;
@@ -59,8 +60,11 @@ img {
   border-radius: 10px;
   margin-top: 3rem;
   border: #f2f2f2;
-  font-size: .875rem;
   text-align: left;
+}
+
+.btn-small {
+  font-size: .875rem;
 }
 
 .btn-small:hover {
@@ -71,17 +75,17 @@ img {
   border: #fff;
 }
 
-.btn p {
+.cards p {
   font-weight: normal;
   text-align: left;
   font-size: .875rem;
 }
 
-.btn p:nth-child(odd) {
+.cards p:nth-child(odd) {
   font-style: italic;
 }
 
-.btn p:nth-child(3) {
+.cards p:nth-child(3) {
   font-style: normal;
 }
 
@@ -93,14 +97,14 @@ body {
   margin: 0;
 }
 
-.btn li:nth-child(2) {
+.cards li:nth-child(2) {
   background-color: #ccc;
 }
 
-.btn li:nth-child(4) {
+.cards li:nth-child(4) {
   background-color: #999;
 }
 
-.btn li:nth-child(3) {
+.cards li:nth-child(3) {
   background-color: #aaa;
 }
